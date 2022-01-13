@@ -1,0 +1,13 @@
+{
+  "git.ignoreLimitWarning": true,
+  "name": "Python: Current File (Integrated Terminal)",
+  "type": "python",
+  "request": "launch",
+  "cwd": "${workspaceRoot}",
+  "env": {
+    "PYTHONPATH": "${workspaceRoot}"
+  },
+  "console": "integratedTerminal",
+  "python.venvPath": "C:\\Users\\Zands\\CodingProjects\\Abacus_V_1.0\\venv",
+  "code-runner.runInTerminal": true
+}

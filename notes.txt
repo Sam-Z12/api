@@ -1,0 +1,18 @@
+make new service in /etc/systemd/system on ubuntu
+with cmd: sudo nano <servicename>.service
+copy contents of gunicorn.service
+
+see status of service with: systemctl status <servicename>
+
+set service to automatically restart when system restarts
+sudo systemctl enable <servicename>
+
+
+
+nginx:
+sudo apt install nginx
+go to /etc/nginx/sites-available/
+restart service systemctl restart <servicename>
+
+use ufw for firewall
+use cretbot for ssl
